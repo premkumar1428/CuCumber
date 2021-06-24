@@ -1,8 +1,9 @@
 #Author: your.email@your.domain.com
+@Addtariff @regression
 Feature: Validate add tariff button
 
   Scenario Outline: Add tariff validation
-    Given User launch telecom application
+   # Given User launch telecom application
     And User click on add tariff button
     When user need to fill up the plan details  "<MR>","<FLM>","<FIM>","<FSP>","<LPMC>","<IPMC>","<SPC>"
     And user clicked on submit button
