@@ -6,7 +6,7 @@ Background:
 
       And user click on add customer button
   
-
+   @run
   Scenario: Add customer validation
    # Given User launches telecom application
    # And user click on add customer button

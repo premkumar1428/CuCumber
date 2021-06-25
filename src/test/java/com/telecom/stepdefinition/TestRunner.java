@@ -6,12 +6,12 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src//test//resources//Features//Features",
+@CucumberOptions(features = "src//test//resources//Features",
                      glue = "com.telecom.stepdefinition",
                    plugin = "html:target",
                    monochrome=true,
-                   dryRun = false,
-                   tags = "@smoke")
+                   dryRun =false)
+                  // tags = {"@run"})
                     
 
 
